@@ -53,4 +53,4 @@ class TestCity(unittest.TestCase):
         """
         style = StyleGuide(quiet=True)
         check = style.check_files([MODEL])
-        self.assertEqual(check.total_errors, 0
+        self.assertEqual(check.total_errors, 0)
